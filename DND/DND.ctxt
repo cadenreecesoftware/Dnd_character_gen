@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=DND
+comment1.params=
+comment1.target=int\ rollSingleDie()
+comment2.params=
+comment2.target=int\ statCalcs()
+comment3.params=
+comment3.target=java.lang.String\ getDndClass()
+comment4.params=
+comment4.target=java.lang.String\ getRace()
+comment5.params=
+comment5.target=void\ rollAndDisplayStats()
+comment5.text=\ \r\n\ \ \ \ public\ String\ getSubclass(String\ classIn)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if(classIn.toLowerCase().equals("barbarian"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ barbarianSubclasses[randNumGen.nextInt(barbarianSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("bard"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ bardSubclasses[randNumGen.nextInt(bardSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("cleric"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ clericSubclasses[randNumGen.nextInt(clericSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("druid"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ druidSubclasses[randNumGen.nextInt(druidSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("fighter"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ fighterSubclasses[randNumGen.nextInt(fighterSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("monk"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ monkSubclasses[randNumGen.nextInt(monkSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("paladin"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ paladinSubclasses[randNumGen.nextInt(paladinSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("ranger"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ rangerSubclasses[randNumGen.nextInt(rangerSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("rogue"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ rogueSubclasses[randNumGen.nextInt(rogueSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("sorcerer"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ sorcererSubclasses[randNumGen.nextInt(sorcererSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("warlock"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ warlockSubclasses[randNumGen.nextInt(warlockSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (classIn.toLowerCase().equals("wizard"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ wizardSubclasses[randNumGen.nextInt(wizardSubclasses.length)];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ "Error";\r\n\r\n\ \ \ \ }\r\n
+comment6.params=
+comment6.target=void\ displayCharacter()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

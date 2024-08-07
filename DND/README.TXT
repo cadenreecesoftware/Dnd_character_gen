@@ -1,0 +1,1 @@
+Dungeons and Dragons character creator. Created as a fun project. Hop right in and create a character, instructions are explained after running.
